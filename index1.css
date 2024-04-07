@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('back1.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Add this CSS to your index.css or newhomepage.css */
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+header h1 {
+    display: flex;
+    align-items: center;
+}
+
+header h1 img {
+    margin-right: 10px;
+    height: 40px; /* Adjust the height as needed */
+}
+header h1 span {
+    font-size: 10px; /* Fixed font size for PSGiTech */
+}
+
+header .right {
+    text-align: right;
+}
+
+header .right h1 {
+    margin: 0;
+    font-size: 18px; /* Adjust the font size as needed */
+}
+
+header .right a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+
+nav {
+    display: flex;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.box {
+    width: 370px; 
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input, select {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
